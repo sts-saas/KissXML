@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = 'A replacement for Cocoa\'s NSXML cluster of classes. Based on libxml.'
   s.homepage     = 'https://github.com/robbiehanson/KissXML'
   s.author       = { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
-  s.source       = { :git => 'https://github.com/robbiehanson/KissXML.git', :tag => '5.0' }
+  s.source       = { :git => 'https://github.com/sts-saas/KissXML.git', :tag => '5.0' }
   s.source_files = 'KissXML/**/*.{h,m}'
   s.library      = 'xml2'
   s.requires_arc = true
